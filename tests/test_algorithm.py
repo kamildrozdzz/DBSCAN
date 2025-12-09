@@ -4,7 +4,7 @@ from sklearn.datasets import make_blobs
 from sklearn.datasets import make_moons
 from sklearn.cluster import DBSCAN as SklearnDBSCAN
 from sklearn.metrics import adjusted_rand_score
-from dbscan_project.algorithm import CustomDBSCAN
+from src.dbscan_project.algorithm import CustomDBSCAN
 
 def test_basic_clustering():
     # generate 50 balls, 2 groups
